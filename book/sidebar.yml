@@ -5,9 +5,15 @@ bookSidebar:
   - label: The Move Book
     enumerate: false
     id: index
+  - label: The Move Book (中文)
+    enumerate: false
+    id: index_zh
   - label: Foreword
     enumerate: false
     id: foreword
+  - label: Foreword (中文)
+    enumerate: false
+    id: foreword_zh
   - type: category
     label: Before We Begin
     link:
@@ -16,16 +22,28 @@ bookSidebar:
     items:
       - label: Install Sui
         id: before-we-begin/install-sui
+      - label: Install Sui (中文)
+        id: before-we-begin/install-sui_zh
       - label: Install MVR
         id: before-we-begin/install-move-registry-cli
+      - label: Install MVR (中文)
+        id: before-we-begin/install-move-registry-cli_zh
       - label: IDE Support
         id: before-we-begin/ide-support
+      - label: IDE Support (中文)
+        id: before-we-begin/ide-support_zh
       - label: Move 2024
         id: before-we-begin/move-2024
+      - label: Move 2024 (中文)
+        id: before-we-begin/move-2024_zh
   - label: Hello World!
     id: your-first-move/hello-world
+  - label: Hello World! (中文)
+    id: your-first-move/hello-world_zh
   - label: Hello Sui!
     id: your-first-move/hello-sui
+  - label: Hello Sui! (中文)
+    id: your-first-move/hello-sui_zh
   - type: category
     label: Concepts
     link:
@@ -34,14 +52,24 @@ bookSidebar:
     items:
       - label: Packages
         id: concepts/packages
+      - label: Packages (中文)
+        id: concepts/packages_zh
       - label: Manifest
         id: concepts/manifest
+      - label: Manifest (中文)
+        id: concepts/manifest_zh
       - label: Address
         id: concepts/address
+      - label: Address (中文)
+        id: concepts/address_zh
       - label: Account
         id: concepts/what-is-an-account
+      - label: Account (中文)
+        id: concepts/what-is-an-account_zh
       - label: Transaction
         id: concepts/what-is-a-transaction
+      - label: Transaction (中文)
+        id: concepts/what-is-a-transaction_zh
   - type: category
     label: Move Basics
     link:
@@ -50,59 +78,111 @@ bookSidebar:
     items:
       - label: Modules
         id: move-basics/module
+      - label: Modules (中文)
+        id: move-basics/module_zh
       - label: Comments
         id: move-basics/comments
+      - label: Comments (中文)
+        id: move-basics/comments_zh
       - label: Primitive Types
         id: move-basics/primitive-types
+      - label: Primitive Types (中文)
+        id: move-basics/primitive-types_zh
       - label: Address Type
         id: move-basics/address
+      - label: Address Type (中文)
+        id: move-basics/address_zh
       - label: Expressions
         id: move-basics/expression
+      - label: Expressions (中文)
+        id: move-basics/expression_zh
       - label: Structs
         id: move-basics/struct
+      - label: Structs (中文)
+        id: move-basics/struct_zh
       - label: Abilities Introduction
         id: move-basics/abilities-introduction
+      - label: Abilities Introduction (中文)
+        id: move-basics/abilities-introduction_zh
       - label: 'Ability: Drop'
         id: move-basics/drop-ability
+      - label: 'Ability: Drop (中文)'
+        id: move-basics/drop-ability_zh
       - label: Importing Modules
         id: move-basics/importing-modules
+      - label: Importing Modules (中文)
+        id: move-basics/importing-modules_zh
       - label: Standard Library
         id: move-basics/standard-library
+      - label: Standard Library (中文)
+        id: move-basics/standard-library_zh
       - label: Vector
         id: move-basics/vector
+      - label: Vector (中文)
+        id: move-basics/vector_zh
       - label: Option
         id: move-basics/option
+      - label: Option (中文)
+        id: move-basics/option_zh
       - label: String
         id: move-basics/string
+      - label: String (中文)
+        id: move-basics/string_zh
       - label: Control Flow
         id: move-basics/control-flow
+      - label: Control Flow (中文)
+        id: move-basics/control-flow_zh
       - label: Enums and Match
         id: move-basics/enum-and-match
+      - label: Enums and Match (中文)
+        id: move-basics/enum-and-match_zh
       - label: Constants
         id: move-basics/constants
+      - label: Constants (中文)
+        id: move-basics/constants_zh
       - label: Aborting Execution
         id: move-basics/assert-and-abort
+      - label: Aborting Execution (中文)
+        id: move-basics/assert-and-abort_zh
       - label: Functions
         id: move-basics/function
+      - label: Functions (中文)
+        id: move-basics/function_zh
       - label: Struct Methods
         id: move-basics/struct-methods
+      - label: Struct Methods (中文)
+        id: move-basics/struct-methods_zh
       - label: Visibility Modifiers
         id: move-basics/visibility
+      - label: Visibility Modifiers (中文)
+        id: move-basics/visibility_zh
       - label: Ownership and Scope
         id: move-basics/ownership-and-scope
+      - label: Ownership and Scope (中文)
+        id: move-basics/ownership-and-scope_zh
       - label: 'Ability: Copy'
         id: move-basics/copy-ability
+      - label: 'Ability: Copy (中文)'
+        id: move-basics/copy-ability_zh
       - label: References
         id: move-basics/references
+      - label: References (中文)
+        id: move-basics/references_zh
       - label: Generics
         id: move-basics/generics
+      - label: Generics (中文)
+        id: move-basics/generics_zh
       - label: Type Reflection
         id: move-basics/type-reflection
+      - label: Type Reflection (中文)
+        id: move-basics/type-reflection_zh
       # - label: "5.26 Macros: Introduction"
       #   type: doc
       #   id: move-basics/type-parameters
       - label: Testing
         id: move-basics/testing
+      - label: Testing (中文)
+        id: move-basics/testing_zh
   - type: category
     label: Object Model
     link:
@@ -111,14 +191,24 @@ bookSidebar:
     items:
       - label: Language for Digital Assets
         id: object/digital-assets
+      - label: Language for Digital Assets (中文)
+        id: object/digital-assets_zh
       - label: Evolution of Move
         id: object/evolution-of-move
+      - label: Evolution of Move (中文)
+        id: object/evolution-of-move_zh
       - label: What is an Object?
         id: object/object-model
+      - label: What is an Object? (中文)
+        id: object/object-model_zh
       - label: Ownership
         id: object/ownership
+      - label: Ownership (中文)
+        id: object/ownership_zh
       - label: Fast Path & Consensus
         id: object/fast-path-and-consensus
+      - label: Fast Path & Consensus (中文)
+        id: object/fast-path-and-consensus_zh
   - type: category
     label: Using Objects
     link:
@@ -127,14 +217,24 @@ bookSidebar:
     items:
       - label: 'Ability: Key'
         id: storage/key-ability
+      - label: 'Ability: Key (中文)'
+        id: storage/key-ability_zh
       - label: Storage Functions
         id: storage/storage-functions
+      - label: Storage Functions (中文)
+        id: storage/storage-functions_zh
       - label: 'Ability: Store'
         id: storage/store-ability
+      - label: 'Ability: Store (中文)'
+        id: storage/store-ability_zh
       - label: UID and ID
         id: storage/uid-and-id
+      - label: UID and ID (中文)
+        id: storage/uid-and-id_zh
       - label: Transfer Restrictions
         id: storage/transfer-restrictions
+      - label: Transfer Restrictions (中文)
+        id: storage/transfer-restrictions_zh
       # - label: 9.6 Transfer to Object
       #   id: storage/transfer-to-object
       #   type: doc
@@ -146,39 +246,71 @@ bookSidebar:
     items:
       - label: Transaction Context
         id: programmability/transaction-context
+      - label: Transaction Context (中文)
+        id: programmability/transaction-context_zh
       - label: Module Initializer
         id: programmability/module-initializer
+      - label: Module Initializer (中文)
+        id: programmability/module-initializer_zh
       - label: 'Pattern: Capability'
         id: programmability/capability
+      - label: 'Pattern: Capability (中文)'
+        id: programmability/capability_zh
       - label: Epoch and Time
         id: programmability/epoch-and-time
+      - label: Epoch and Time (中文)
+        id: programmability/epoch-and-time_zh
       - label: Collections
         id: programmability/collections
+      - label: Collections (中文)
+        id: programmability/collections_zh
       - label: 'Pattern: Wrapper Type'
         id: programmability/wrapper-type-pattern
+      - label: 'Pattern: Wrapper Type (中文)'
+        id: programmability/wrapper-type-pattern_zh
       - label: Dynamic Fields
         id: programmability/dynamic-fields
+      - label: Dynamic Fields (中文)
+        id: programmability/dynamic-fields_zh
       - label: Dynamic Object Fields
         id: programmability/dynamic-object-fields
+      - label: Dynamic Object Fields (中文)
+        id: programmability/dynamic-object-fields_zh
       - label: Dynamic Collections
         id: programmability/dynamic-collections
+      - label: Dynamic Collections (中文)
+        id: programmability/dynamic-collections_zh
       - label: 'Pattern: Witness'
         id: programmability/witness-pattern
+      - label: 'Pattern: Witness (中文)'
+        id: programmability/witness-pattern_zh
       - label: One-Time Witness
         id: programmability/one-time-witness
+      - label: One-Time Witness (中文)
+        id: programmability/one-time-witness_zh
       - label: Publisher Authority
         id: programmability/publisher
+      - label: Publisher Authority (中文)
+        id: programmability/publisher_zh
       - label: Object Display
         id: programmability/display
+      - label: Object Display (中文)
+        id: programmability/display_zh
       - label: Events
         id: programmability/events
+      - label: Events (中文)
+        id: programmability/events_zh
       # - label: Balance & Coin
       #   id: programmability/balance-and-coin
       #   type: doc
       - label: Sui Framework
         id: programmability/sui-framework
+      - label: Sui Framework (中文)
+        id: programmability/sui-framework_zh
       - label: 'Pattern: Hot Potato'
         id: programmability/hot-potato-pattern
+      - label: 'Pattern: Hot Potato (中文)'
+        id: programmability/hot-potato-pattern_zh
       # - label: '8.18 Pattern: Request'
       #   id: programmability/request-pattern
       #   type: doc
@@ -202,20 +334,32 @@ bookSidebar:
       #   type: doc
       - label: BCS
         id: programmability/bcs
+      - label: BCS (中文)
+        id: programmability/bcs_zh
   - type: category
     label: Guides
     enumerate: false
     items:
       - label: 2024 Migration Guide
         id: guides/2024-migration-guide
+      - label: 2024 Migration Guide (中文)
+        id: guides/2024-migration-guide_zh
       - label: Upgradability Practices
         id: guides/upgradeability-practices
+      - label: Upgradability Practices (中文)
+        id: guides/upgradeability-practices_zh
       - label: Building Against Limits
         id: guides/building-against-limits
+      - label: Building Against Limits (中文)
+        id: guides/building-against-limits_zh
       - label: Better Error Handling
         id: guides/better-error-handling
+      - label: Better Error Handling (中文)
+        id: guides/better-error-handling_zh
       - label: Code Quality Checklist
         id: guides/code-quality-checklist
+      - label: Code Quality Checklist (中文)
+        id: guides/code-quality-checklist_zh
       # - label: Open-sourcing Libraries
       #   id: guides/open-sourcing-libraries
       # - label: Creating an NFT Collection
@@ -226,11 +370,21 @@ bookSidebar:
     items:
       - label: A. Glossary
         id: appendix/glossary
+      - label: A. Glossary (中文)
+        id: appendix/glossary_zh
       - label: B. Reserved Addresses
         id: appendix/reserved-addresses
+      - label: B. Reserved Addresses (中文)
+        id: appendix/reserved-addresses_zh
       - label: C. Publications
         id: appendix/publications
+      - label: C. Publications (中文)
+        id: appendix/publications_zh
       - label: D. Contributing
         id: appendix/contributing
+      - label: D. Contributing (中文)
+        id: appendix/contributing_zh
       - label: E. Acknowledgements
         id: appendix/acknowledgements
+      - label: E. Acknowledgements (中文)
+        id: appendix/acknowledgements_zh
