@@ -5,12 +5,17 @@ referenceSidebar:
   - label: The Move Reference
     enumerate: false
     id: index
+  - label: The Move Reference (中文)
+    enumerate: false
+    id: index_zh
   - type: category
     enumerate: false
     label: Getting Started
     items:
       - label: 1. Modules
         id: modules
+      - label: 1. Modules (中文)
+        id: modules_zh
   - type: category
     enumerate: false
     label: Basic Concepts
@@ -23,20 +28,54 @@ referenceSidebar:
         items:
           - label: 2.1 Integers
             id: primitive-types/integers
+          - label: 2.1 Integers (中文)
+            id: primitive-types/integers_zh
           - label: 2.2 Bool
             id: primitive-types/bool
+          - label: 2.2 Bool (中文)
+            id: primitive-types/bool_zh
           - label: 2.3 Address
             id: primitive-types/address
+          - label: 2.3 Address (中文)
+            id: primitive-types/address_zh
           - label: 2.4 Vector
             id: primitive-types/vector
+          - label: 2.4 Vector (中文)
+            id: primitive-types/vector_zh
           - label: 2.5 References
             id: primitive-types/references
+          - label: 2.5 References (中文)
+            id: primitive-types/references_zh
           - label: 2.6 Tuples and Unit
             id: primitive-types/tuples
+          - label: 2.6 Tuples and Unit (中文)
+            id: primitive-types/tuples_zh
+      - type: category
+        label: 2. Primitive Types (中文)
+        link:
+          id: primitive-types_zh
+          type: doc
+        items:
+          - label: 2.1 Integers (中文)
+            id: primitive-types/integers_zh
+          - label: 2.2 Bool (中文)
+            id: primitive-types/bool_zh
+          - label: 2.3 Address (中文)
+            id: primitive-types/address_zh
+          - label: 2.4 Vector (中文)
+            id: primitive-types/vector_zh
+          - label: 2.5 References (中文)
+            id: primitive-types/references_zh
+          - label: 2.6 Tuples and Unit (中文)
+            id: primitive-types/tuples_zh
       - label: 3. Local Variables and Scopes
         id: variables
+      - label: 3. Local Variables and Scopes (中文)
+        id: variables_zh
       - label: 4. Equality
         id: equality
+      - label: 4. Equality (中文)
+        id: equality_zh
       - type: category
         label: 5. Abort and Assert
         link:
@@ -45,6 +84,16 @@ referenceSidebar:
         items:
           - label: 5.1 Clever Errors
             id: abort-and-assert/clever-errors
+          - label: 5.1 Clever Errors (中文)
+            id: abort-and-assert/clever-errors_zh
+      - type: category
+        label: 5. Abort and Assert (中文)
+        link:
+          id: abort-and-assert_zh
+          type: doc
+        items:
+          - label: 5.1 Clever Errors (中文)
+            id: abort-and-assert/clever-errors_zh
       - type: category
         label: 6. Control Flow
         link:
@@ -53,12 +102,34 @@ referenceSidebar:
         items:
           - label: 6.1 Conditional Expressions
             id: control-flow/conditionals
+          - label: 6.1 Conditional Expressions (中文)
+            id: control-flow/conditionals_zh
           - label: 6.2 Loops
             id: control-flow/loops
+          - label: 6.2 Loops (中文)
+            id: control-flow/loops_zh
           - label: 6.3 Labeled Control Flow
             id: control-flow/labeled-control-flow
+          - label: 6.3 Labeled Control Flow (中文)
+            id: control-flow/labeled-control-flow_zh
           - label: 6.4 Pattern Matching
             id: control-flow/pattern-matching
+          - label: 6.4 Pattern Matching (中文)
+            id: control-flow/pattern-matching_zh
+      - type: category
+        label: 6. Control Flow (中文)
+        link:
+          id: control-flow_zh
+          type: doc
+        items:
+          - label: 6.1 Conditional Expressions (中文)
+            id: control-flow/conditionals_zh
+          - label: 6.2 Loops (中文)
+            id: control-flow/loops_zh
+          - label: 6.3 Labeled Control Flow (中文)
+            id: control-flow/labeled-control-flow_zh
+          - label: 6.4 Pattern Matching (中文)
+            id: control-flow/pattern-matching_zh
       - type: category
         label: 7. Functions
         link:
@@ -67,43 +138,77 @@ referenceSidebar:
         items:
           - label: 7.1 Macros
             id: functions/macros
+          - label: 7.1 Macros (中文)
+            id: functions/macros_zh
+      - type: category
+        label: 7. Functions (中文)
+        link:
+          id: functions_zh
+          type: doc
+        items:
+          - label: 7.1 Macros (中文)
+            id: functions/macros_zh
       - label: 8. Structs
         id: structs
+      - label: 8. Structs (中文)
+        id: structs_zh
       - label: 9. Enums
         id: enums
+      - label: 9. Enums (中文)
+        id: enums_zh
       - label: 10. Constants
         id: constants
+      - label: 10. Constants (中文)
+        id: constants_zh
       - label: 11. Generics
         id: generics
+      - label: 11. Generics (中文)
+        id: generics_zh
       - label: 12. Abilities
         id: abilities
+      - label: 12. Abilities (中文)
+        id: abilities_zh
       - label: 13. Uses and Aliases
         id: uses
+      - label: 13. Uses and Aliases (中文)
+        id: uses_zh
   - type: category
     enumerate: false
     label: Advanced Concepts
     items:
       - label: 14. Method Syntax
         id: method-syntax
+      - label: 14. Method Syntax (中文)
+        id: method-syntax_zh
       - label: 15. Index Syntax
         id: index-syntax
+      - label: 15. Index Syntax (中文)
+        id: index-syntax_zh
   - type: category
     label: Tooling
     enumerate: false
     items:
       - label: 16. Packages
         id: packages
+      - label: 16. Packages (中文)
+        id: packages_zh
       - label: 17. Unit Testing
         id: unit-testing
+      - label: 17. Unit Testing (中文)
+        id: unit-testing_zh
   - type: category
     label: Reference
     enumerate: false
     items:
       - label: 18. Coding Conventions
         id: coding-conventions
+      - label: 18. Coding Conventions (中文)
+        id: coding-conventions_zh
   - type: category
     label: Deprecated
     enumerate: false
     items:
       - label: 19. Friends
         id: friends
+      - label: 19. Friends (中文)
+        id: friends_zh
